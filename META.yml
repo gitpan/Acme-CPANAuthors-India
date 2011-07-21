@@ -25,5 +25,5 @@ resources:
   homepage: https://github.com/shantanubhadoria/Acme-CPANAuthors-India
   license: http://dev.perl.org/licenses/
   repository: git://github.com/shantanubhadoria/acme-cpanauthors-india.git
-version: 0.01
+version: 0.02
 x_authority: cpan:SHANTANU
