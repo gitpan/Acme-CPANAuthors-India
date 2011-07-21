@@ -3,7 +3,7 @@ BEGIN {
   $Acme::CPANAuthors::India::AUTHORITY = 'cpan:SHANTANU';
 }
 BEGIN {
-  $Acme::CPANAuthors::India::VERSION = '0.03';
+  $Acme::CPANAuthors::India::VERSION = '0.04';
 }
 
 use 5.006;
@@ -129,7 +129,6 @@ automatically be notified of progress on your bug as I make changes.
 You can find documentation for this module with the perldoc command.
 
     perldoc Acme::CPANAuthors::India
-
 
 You can also look for information at:
 
