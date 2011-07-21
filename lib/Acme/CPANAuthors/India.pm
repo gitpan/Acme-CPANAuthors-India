@@ -3,7 +3,7 @@ BEGIN {
   $Acme::CPANAuthors::India::AUTHORITY = 'cpan:SHANTANU';
 }
 BEGIN {
-  $Acme::CPANAuthors::India::VERSION = '0.02';
+  $Acme::CPANAuthors::India::VERSION = '0.03';
 }
 
 use 5.006;
@@ -42,7 +42,6 @@ use Acme::CPANAuthors::Register (
     HAGGAI    => 'Alan Haggai Alavi',
     HARPREET  => 'Harpreet Saini',
     HUGHES    => 'Manish Saxena',
-    JMAHESH   => 'Mahesh Joshi',
     JNAGRA    => 'Jasvir Nagra',
     KARTHIKK  => 'Karthik Krishnamurthy',
     KARTHIKU  => 'Karthik Umashankar',
