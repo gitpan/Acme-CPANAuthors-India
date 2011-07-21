@@ -3,7 +3,7 @@ BEGIN {
   $Acme::CPANAuthors::India::AUTHORITY = 'cpan:SHANTANU';
 }
 BEGIN {
-  $Acme::CPANAuthors::India::VERSION = '0.04';
+  $Acme::CPANAuthors::India::VERSION = '0.05';
 }
 
 use 5.006;
