@@ -1,0 +1,29 @@
+---
+abstract: 'We are the CPAN Authors from India!'
+author:
+  - 'Shantanu Bhadoria <shantanu at cpan dott org>'
+build_requires:
+  Test::More: 0.47
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.200012, CPAN::Meta::Converter version 2.110930001'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Acme-CPANAuthors-India
+no_index:
+  directory:
+    - t
+    - xt
+requires:
+  Acme::CPANAuthors: 0
+  Acme::CPANAuthors::Register: 0
+resources:
+  bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Acme-CPANAuthors-India
+  homepage: https://github.com/shantanubhadoria/Acme-CPANAuthors-India
+  license: http://dev.perl.org/licenses/
+  repository: git://github.com/shantanubhadoria/acme-cpanauthors-india.git
+version: 0.01
+x_authority: cpan:SHANTANU
