@@ -1,21 +1,23 @@
 package Acme::CPANAuthors::India;
-BEGIN {
-  $Acme::CPANAuthors::India::AUTHORITY = 'cpan:SHANTANU';
-}
-BEGIN {
-  $Acme::CPANAuthors::India::VERSION = '0.05';
-}
 
 use 5.006;
 use strict;
 use warnings FATAL => 'all';
 use utf8;
 
-=head1 NAME
+# PODNAME: Acme::CPANAuthors::India
+our $VERSION = '0.07'; # VERSION
+# ABSTRACT: We are the Indian CPAN Authors. Coming from that big peninsula in the center of Asia, the original Indians. The ones columbus was looking for. :)
+#
+# This file is part of Acme-CPANAuthors-India
+#
+# This software is copyright (c) 2013 by Shantanu Bhadoria.
+#
+# This is free software; you can redistribute it and/or modify it under
+# the same terms as the Perl 5 programming language system itself.
+#
 
-Acme::CPANAuthors::India - We are the CPAN Authors from India!
-
-=cut
+# Dependencies
 
 use Acme::CPANAuthors::Register (
     ADARSHTP  => 'ADARSH TP',
@@ -87,83 +89,92 @@ use Acme::CPANAuthors::Register (
     VIPUL     => 'Vipul Ved Prakash',
 );
 
+1;
+
+=pod
+
+=head1 NAME
+
+Acme::CPANAuthors::India - We are the Indian CPAN Authors. Coming from that big peninsula in the center of Asia, the original Indians. The ones columbus was looking for. :)
+
+=head1 VERSION
+
+version 0.07
+
 =head1 SYNOPSIS
 
-We are the Indian CPAN Authors. Coming from that big peninsula in the center of Asia, the original Indians. The ones columbus was looking for. :)
-
-
-    use Acme::CPANAuthors;
-
-    my $authors  = Acme::CPANAuthors->new("India");
-
-    my $number   = $authors->count;
-    my @ids      = $authors->id;
-    my @distros  = $authors->distributions("SHANTANU");
-    my $url      = $authors->avatar_url("SHANTANU");
-    my $kwalitee = $authors->kwalitee("SHANTANU");
-    my $name     = $authors->name("SHANTANU");
-    ...
+     use Acme::CPANAuthors;
+ 
+     my $authors  = Acme::CPANAuthors->new("India");
+ 
+     my $number   = $authors->count;
+     my @ids      = $authors->id;
+     my @distros  = $authors->distributions("SHANTANU");
+     my $url      = $authors->avatar_url("SHANTANU");
+     my $kwalitee = $authors->kwalitee("SHANTANU");
+     my $name     = $authors->name("SHANTANU");
+     ...
 
 =head1 DESCRIPTION
 
 This Module provides a List of all Indian CPAN Authors Listed. 
 
-=head1 MAINTENANCE
+=head1 NOTES
 
-If you are a Indian CPAN author not listed here, please send your ID/name via email or RT(Link given below) so I can keep this module up to date.
+  * If you are a Indian CPAN author not listed here, please send your ID/name via email or a pull request on github so I can keep this module up to date. 
+  * If you are not a Indian CPAN author but still on the list here, please send me your ID/name via email or submit a pull request on github and I will remove your name.
 
-If you are not a Indian CPAN author but still on the list here, please send me your ID/name via email or RT and I will remove your name.
+=head1 SEE ALSO
 
-=head1 AUTHOR
+  * [Acme::CPANAuthors::Register]
 
-Shantanu Bhadoria, C<< <shantanu aatt cpan dottt org> >>
-
-=head1 BUGS
-
-Please report any bugs or feature requests to C<bug-acme-cpanauthors-india at rt.cpan.org>, or through
-the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Acme-CPANAuthors-India>.  I will be notified, and then you'll
-automatically be notified of progress on your bug as I make changes.
+=for :stopwords cpan testmatrix url annocpan anno bugtracker rt cpants kwalitee diff irc mailto metadata placeholders metacpan
 
 =head1 SUPPORT
 
-You can find documentation for this module with the perldoc command.
+=head2 Bugs / Feature Requests
 
-    perldoc Acme::CPANAuthors::India
+Please report any bugs or feature requests through github at 
+L<https://github.com/shantanubhadoria/acme-cpanauthors-india/issues>.
+You will be notified automatically of any progress on your issue.
 
-You can also look for information at:
+=head2 Source Code
+
+This is open source software.  The code repository is available for
+public review and contribution under the terms of the license.
+
+L<https://github.com/shantanubhadoria/acme-cpanauthors-india>
+
+  git clone git://github.com/shantanubhadoria/acme-cpanauthors-india.git
+
+=head1 AUTHOR
+
+Shantanu Bhadoria <shantanu at cpan dott org>
+
+=head1 CONTRIBUTORS
 
 =over 4
 
-=item * RT: CPAN's request tracker (report bugs here)
+=item *
 
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Acme-CPANAuthors-India>
+Shantanu <shantanu@cpan.org>
 
-=item * AnnoCPAN: Annotated CPAN documentation
+=item *
 
-L<http://annocpan.org/dist/Acme-CPANAuthors-India>
-
-=item * CPAN Ratings
-
-L<http://cpanratings.perl.org/d/Acme-CPANAuthors-India>
-
-=item * Search CPAN
-
-L<http://search.cpan.org/dist/Acme-CPANAuthors-India/>
+Shantanu Bhadoria <shantanu.bhadoria@gmail.com>
 
 =back
 
+=head1 COPYRIGHT AND LICENSE
 
-=head1 LICENSE AND COPYRIGHT
+This software is copyright (c) 2013 by Shantanu Bhadoria.
 
-Copyright 2011 Shantanu Bhadoria.
-
-This program is free software; you can redistribute it and/or modify it
-under the terms of either: the GNU General Public License as published
-by the Free Software Foundation; or the Artistic License.
-
-See http://dev.perl.org/licenses/ for more information.
-
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
 
 =cut
 
-1;    # End of Acme::CPANAuthors::India
+__END__
+
+
+ # End of Acme::CPANAuthors::India
